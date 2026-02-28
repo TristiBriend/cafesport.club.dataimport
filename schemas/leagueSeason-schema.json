@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "League Seasons",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "leagueId": {
+            "type": "string"
+        },
+        "leagueTitle": {
+            "type": "string"
+        },
+        "sport": {
+            "type": "string"
+        },
+        "seasonKey": {
+            "type": "string"
+        },
+        "year": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "averageScore": {
+            "type": "number"
+        },
+        "count": {
+            "type": "number"
+        },
+        "dateRangeLabel": {
+            "type": "string"
+        },
+        "endDateISO": {
+            "type": "string"
+        },
+        "startDateISO": {
+            "type": "string"
+        },
+        "pastCount": {
+            "type": "number"
+        },
+        "upcomingCount": {
+            "type": "number"
+        },
+        "eventIds": {
+            "type": "array"
+        },
+        "events": {
+            "type": "array"
+        }
+    },
+    "required": [
+        "id",
+        "leagueId",
+        "leagueTitle",
+        "sport",
+        "seasonKey",
+        "year",
+        "title",
+        "averageScore",
+        "count",
+        "dateRangeLabel",
+        "endDateISO",
+        "startDateISO",
+        "pastCount",
+        "upcomingCount",
+        "eventIds",
+        "events"
+    ],
+    "additionalProperties": true
+}

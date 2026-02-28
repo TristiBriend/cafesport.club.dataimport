@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Athletes",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "sport": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        },
+        "teamId": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "bio": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "team": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "sport",
+        "country",
+        "teamId",
+        "role",
+        "bio",
+        "image"
+    ],
+    "additionalProperties": true
+}

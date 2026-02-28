@@ -1,0 +1,68 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Comments",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "targetType": {
+            "type": "string"
+        },
+        "targetId": {
+            "type": "string"
+        },
+        "eventId": {
+            "type": "string"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string"
+        },
+        "note": {
+            "type": "string"
+        },
+        "likes": {
+            "type": "number"
+        },
+        "isLiked": {
+            "type": "boolean"
+        },
+        "totalLikes": {
+            "type": "number"
+        },
+        "totalImpressions": {
+            "type": "number"
+        },
+        "commentType": {
+            "type": "string"
+        },
+        "rating": {
+            "type": "number"
+        },
+        "createdAt": {
+            "type": "string"
+        },
+        "replies": {
+            "type": "array"
+        }
+    },
+    "required": [
+        "id",
+        "targetType",
+        "targetId",
+        "eventId",
+        "author",
+        "note",
+        "likes",
+        "isLiked",
+        "totalLikes",
+        "totalImpressions",
+        "commentType",
+        "createdAt",
+        "replies"
+    ],
+    "additionalProperties": true
+}

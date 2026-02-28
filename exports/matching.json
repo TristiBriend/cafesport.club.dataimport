@@ -1,0 +1,36 @@
+{
+  "leagues": [
+    {
+      "id": "league_123",
+      "name": "Ligue 1",
+      "sport": "Football"
+    },
+    {
+      "id": "league_456",
+      "name": "Top 14",
+      "sport": "Rugby"
+    },
+    {
+      "id": "league_789",
+      "name": "Premier League",
+      "sport": "Football"
+    }
+  ],
+  "leagueSeasons": [
+    {
+      "id": "season_se_9991",
+      "leagueId": "league_123",
+      "year": 2023
+    },
+    {
+      "id": "season_se_8882",
+      "leagueId": "league_456",
+      "year": 2023
+    },
+    {
+      "id": "season_se_7773",
+      "leagueId": "league_789",
+      "year": 2023
+    }
+  ]
+}

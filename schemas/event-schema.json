@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Events",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "sport": {
+            "type": "string"
+        },
+        "league": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "dateISO": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "communityScore": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "reviews": {
+            "type": "number"
+        },
+        "result": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "competitionId": {
+            "type": "string"
+        },
+        "seasonId": {
+            "type": "string"
+        },
+        "seasonKey": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "title",
+        "sport",
+        "league",
+        "date",
+        "dateISO",
+        "location",
+        "status",
+        "communityScore",
+        "reviews",
+        "result",
+        "image",
+        "competitionId",
+        "seasonId",
+        "seasonKey"
+    ],
+    "additionalProperties": true
+}

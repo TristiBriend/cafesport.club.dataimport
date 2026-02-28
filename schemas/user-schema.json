@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Users",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "handle": {
+            "type": "string"
+        },
+        "followers": {
+            "type": "number"
+        },
+        "location": {
+            "type": "string"
+        },
+        "bio": {
+            "type": "string"
+        },
+        "badge": {
+            "type": "string"
+        },
+        "favoriteSports": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "handle",
+        "followers",
+        "location",
+        "bio",
+        "badge",
+        "favoriteSports"
+    ],
+    "additionalProperties": true
+}

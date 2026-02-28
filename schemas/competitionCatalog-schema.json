@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Competition Catalog",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "currentName": {
+            "type": "string"
+        },
+        "sport": {
+            "type": "string"
+        },
+        "seasonModel": {
+            "type": "string"
+        },
+        "frequency": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "currentName",
+        "sport",
+        "seasonModel",
+        "frequency"
+    ],
+    "additionalProperties": true
+}

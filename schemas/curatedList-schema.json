@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Curated Lists",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "count": {
+            "type": "number"
+        },
+        "sport": {
+            "type": "string"
+        },
+        "ownerId": {
+            "type": "string"
+        },
+        "likes": {
+            "type": "number"
+        },
+        "entries": {
+            "type": "array"
+        },
+        "itemLabel": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "title",
+        "description",
+        "count",
+        "sport",
+        "ownerId",
+        "likes",
+        "entries"
+    ],
+    "additionalProperties": true
+}

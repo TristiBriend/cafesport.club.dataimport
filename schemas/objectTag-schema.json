@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Object Tags",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "value": {
+            "type": "array"
+        }
+    },
+    "required": [
+        "id",
+        "value"
+    ],
+    "additionalProperties": true
+}

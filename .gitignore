@@ -1,0 +1,13 @@
+node_modules/
+.env
+serviceAccountKey.json
+dist/
+*.log
+exports/wc*.json
+exports/ligue*.json
+exports/validation.json
+exports/import.json
+exports/normalized.json
+exports/raw.json
+exports/matching.json
+staging/fm_dump.html

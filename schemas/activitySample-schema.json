@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Activity Samples",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "dateLabel": {
+            "type": "string"
+        },
+        "dateISO": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "userId",
+        "type",
+        "label",
+        "date",
+        "dateLabel",
+        "dateISO"
+    ],
+    "additionalProperties": true
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Leagues",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sport": {
+      "type": "string"
+    },
+    "seasonModel": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "string"
+    },
+    "count": {
+      "type": "number"
+    },
+    "averageScore": {
+      "type": "number"
+    },
+    "events": {
+      "type": "array"
+    },
+    "seasons": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "sport",
+    "seasonModel",
+    "frequency",
+    "count",
+    "averageScore",
+    "events",
+    "seasons"
+  ],
+  "additionalProperties": true
+}

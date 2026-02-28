@@ -1,0 +1,23 @@
+[
+    {
+        "competition_id": 123,
+        "competition_name": "Ligue 1",
+        "sport_type": "Football",
+        "current_season_year": 2023,
+        "current_season_id": "se_9991"
+    },
+    {
+        "competition_id": 456,
+        "competition_name": "Top 14",
+        "sport_type": "Rugby",
+        "current_season_year": 2023,
+        "current_season_id": "se_8882"
+    },
+    {
+        "competition_id": 789,
+        "competition_name": "Premier League",
+        "sport_type": "Football",
+        "current_season_year": 2023,
+        "current_season_id": "se_7773"
+    }
+]

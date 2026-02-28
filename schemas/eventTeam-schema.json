@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Event Teams",
+    "type": "object",
+    "properties": {
+        "eventId": {
+            "type": "string"
+        },
+        "teamIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "eventId",
+        "teamIds"
+    ],
+    "additionalProperties": true
+}
