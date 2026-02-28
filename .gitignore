@@ -3,11 +3,7 @@ node_modules/
 serviceAccountKey.json
 dist/
 *.log
-exports/wc*.json
-exports/ligue*.json
-exports/validation.json
-exports/import.json
-exports/normalized.json
-exports/raw.json
-exports/matching.json
+exports/
+foot/exports/
 staging/fm_dump.html
+
