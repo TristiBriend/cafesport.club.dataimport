@@ -102,8 +102,8 @@ async function scrapeWorldCup() {
         const awayTeamData = getFrenchTeam(cleanAwayName);
 
         // Keep ID simple and unaccented
-        const homeId = `tm_${slugify(cleanHomeName)}`;
-        const awayId = `tm_${slugify(cleanAwayName)}`;
+        const homeId = `tm_football_${slugify(cleanHomeName)}`;
+        const awayId = `tm_football_${slugify(cleanAwayName)}`;
 
         if (!teamsMap.has(homeId)) {
             teamsMap.set(homeId, {

@@ -120,8 +120,8 @@ async function scrapeAll() {
                 const homeTeamData = getFrenchLeagueTeam(cleanHomeName);
                 const awayTeamData = getFrenchLeagueTeam(cleanAwayName);
 
-                const homeId = `tm_${slugify(cleanHomeName)}`;
-                const awayId = `tm_${slugify(cleanAwayName)}`;
+                const homeId = `tm_football_${slugify(cleanHomeName)}`;
+                const awayId = `tm_football_${slugify(cleanAwayName)}`;
 
                 if (!teamsMap.has(homeId)) {
                     teamsMap.set(homeId, {
